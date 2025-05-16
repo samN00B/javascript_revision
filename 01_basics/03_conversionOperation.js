@@ -1,4 +1,4 @@
-
+// *********************conversion*********************
 // ----------------Number---------------------------
 
 // let score = "33" => converted value 33 => typeof number
@@ -61,3 +61,60 @@
 //     33 + ""
 //     33.toString()
 //     `${33}`
+
+// *********************operations*********************
+
+// let value = 3
+
+// let negValue = -value
+
+// console.log(value)
+// console.log(negValue)
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+// -----------------------------------------------
+// let str1 = "hello"
+// let str2 = "sameer"
+// let str3 = str1 + " " + str2
+// let str4 = `${str1} ${str2}`
+
+// console.log(str3);
+// console.log(str4);
+
+// -------------------------------------------------------
+// console.log("1" + 2) // 12 if 1st element is string treats other as string and concatinate
+// console.log(1 + "2"); // 12 if last then let others number to do operations then concatinate
+// console.log("1" + "2"); // 12
+// console.log("1" + 2 + 2); // 122
+// console.log(1 + 2 + "2"); // 32
+// ------------------------------------------------------------
+
+// console.log(true); // true
+// console.log(+true); => 1 // unary plus (+) operator, which converts its operand to a number. internally Number(true) => 1
+// console.log(+""); => 0 // converting an empty string to a number. Number("") => 0
+// console.log(true+); // error
+
+// +value: converts to number
+// -value: converts to number, then negates
+
+// -------------------------------------------------------------------
+// let num1, num2, num3 //not a good way
+
+// num1 = num2 = num3 = 2+2
+
+
+// --------------------------Learn about pre fix and post fix--------------------------------------------
+
+// let counter = 100
+
+// ++counter
+// counter++
+// console.log(counter);
+
+// ------------------------------------------------
+
