@@ -44,16 +44,21 @@ const hundreds = 1000000.91
 
 //generate 5 random num between 5 - 10
 
-const min = 5
-const max = 10
+// const min = 5
+// const max = 10
 
-function randomNum(){
-    for(let i=1; i <=5; i++){
-        console.log(Math.floor(Math.random() * (max - min + 1) + min));
+// function randomNum(){
+//     for(let i=1; i <=5; i++){
+//         console.log(Math.floor(Math.random() * (max - min + 1) + min));
         
-    }
-}
-randomNum()
+//     }
+// }
+// randomNum()
 
 // If you didn’t do +1, max would never be included.
 // Math.random() never returns 1, only up to but not including 1.
+
+
+console.log(Math.sqrt(78)); // Returns the square root of a number.
+
+console.log(Math.trunc(10.12)) // Returns the integral part of the a numeric expression, x, removing any fractional digits. If x is already an integer, the result is x.
